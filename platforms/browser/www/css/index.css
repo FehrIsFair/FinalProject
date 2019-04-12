@@ -1,0 +1,225 @@
+23
+0
+Company-wide announcements and work-based matters
+
+
+
+
+
+
+
+Message List
+1 new message since 6:31 PM on February 19th
+Mark as read
+general
+@Dustin Christensen created this channel on January 15th, 2018. This is the very beginning of the general channel. Purpose: This channel is for workspace-wide communication and announcements. All members are in this channel. (edit)
+ Add an app Invite others to this channel
+
+Dustin Christensen [6:58 PM]
+http://docs.phonegap.com/getting-started/1-install-phonegap/desktop/
+
+james_hooper [6:58 PM]
+joined #general along with 3 others.
+
+Spencer [7:01 PM]
+:+1:
+
+Dcarp [7:04 PM]
+:grinning:
+
+Dustin Christensen [6:15 PM]
+https://phonegap.com/app/
+phonegap.com
+PhoneGap App Showcase
+Ever wondered who is building amazing apps using PhoneGap?
+Desktop App Features
+http://docs.phonegap.com/references/desktop-app/
+
+Phonegap Developer App Features
+http://docs.phonegap.com/references/developer-app/
+
+PhoneGap Browser Support
+http://docs.phonegap.com/references/browser-support/
+
+PhoneGap CLI
+http://docs.phonegap.com/references/phonegap-cli/
+
+PhoneGap Plugins List
+http://docs.phonegap.com/references/plugin-apis/
+
+Suported Platfoms
+http://docs.phonegap.com/en/4.0.0/guide_support_index.md.html
+
+Dustin Christensen [6:43 PM]
+http://docs.phonegap.com/references/plugin-apis/
+
+Dustin Christensen [5:17 PM]
+Hey all I’m going to cancel class tonight. The snowstorm in Salt Lake is terrible and I am not going to be able to make it on time
+
+Dustin Christensen [5:41 PM]
+Please let others know if you see them that are in the class
+
+Dcarp [5:53 PM]
+How do we turn in the assignment that is due tonight?
+
+Dustin Christensen [5:55 PM]
+I will extend the time until next Tuesday
+
+Dcarp [8:42 PM]
+Thank you.
+
+Dustin Christensen [6:04 PM]
+https://www.javascripting.com
+javascripting.com
+JavaScripting.com - The Database of JavaScript Libraries
+A collection of the world's best client-side JavaScript libraries
+http://jquerymobile.com/
+
+Dustin Christensen [6:35 PM]
+Download version 1.4.5 of jQuery Mobile and add it to your project
+http://jquerymobile.com/download/
+- Download vDersion 1.11.1 of jQuery and add it to your project
+https://code.jquery.com/jquery/
+
+Dustin Christensen [6:31 PM]
+Untitled 
+<link rel="stylesheet" href="js/vendor/jquery.mobile-1.4.5/jquery.mobile-1.4.5.css" />
+  <script src="js/vendor/jquery/jquery-1.11.1.min.js" type="text/javascript"></script>
+  <script src="js/vendor/jquery.mobile-1.4.5/jquery.mobile-1.4.5.js" type="text/javascript"></script>
+
+Dustin Christensen [6:03 PM]
+Untitled 
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements. See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership. The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License. You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied. See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ */
+/** {*/
+  /*-webkit-tap-highlight-color: rgba(0,0,0,0);*/ /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+/*}*/
+/*body {*/
+  /*-webkit-touch-callout: none;*/        /* prevent callout to copy image, etc when tap to hold */
+  /*-webkit-text-size-adjust: none; */      /* prevent webkit from resizing text to fit */
+  /*-webkit-user-select: none;*/         /* prevent copy paste, to allow, change 'none' to 'text' */
+  /*background-color:#E4E4E4;
+  background-image:linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
+  background-image:-webkit-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
+  background-image:-ms-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
+  background-image:-webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0, #A7A7A7),
+    color-stop(0.51, #E4E4E4)
+  );
+  background-attachment:fixed;
+  font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+  font-size:12px;
+  height:100%;
+  margin:0px;
+  padding:0px;
+  text-transform:uppercase;
+  width:100%;
+}*/
+/* Portrait layout (default) */
+.app {
+  background:url(../img/logo.png) no-repeat center top; /* 170px x 200px */
+  position:absolute;       /* position in the center of the screen */
+  left:50%;
+  top:50%;
+  height:50px;          /* text area height */
+  width:225px;          /* text area width */
+  text-align:center;
+  padding:180px 0px 0px 0px;   /* image height is 200px (bottom 20px are overlapped with text) */
+  margin:-115px 0px 0px -112px; /* offset vertical: half of image height and text area height */
+                  /* offset horizontal: half of text area width */
+}
+/* Landscape layout (with min-width) */
+@media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
+  .app {
+    background-position:left center;
+    padding:75px 0px 75px 170px; /* padding-top + padding-bottom + text area = image height */
+    margin:-90px 0px 0px -198px; /* offset vertical: half of image height */
+                   /* offset horizontal: half of image width and text area width */
+  }
+}
+/*h1 {
+  font-size:24px;
+  font-weight:normal;
+  margin:0px;
+  overflow:visible;
+  padding:0px;
+  text-align:center;
+}*/
+.event {
+  border-radius:4px;
+  -webkit-border-radius:4px;
+  color:#FFFFFF;
+  font-size:12px;
+  margin:0px 30px;
+  padding:2px 0px;
+}
+.event.listening {
+  background-color:#333333;
+  display:block;
+}
+.event.received {
+  background-color:#4B946A;
+  display:none;
+}
+@keyframes fade {
+  from { opacity: 1.0; }
+  50% { opacity: 0.4; }
+  to { opacity: 1.0; }
+}
+ 
+@-webkit-keyframes fade {
+  from { opacity: 1.0; }
+  50% { opacity: 0.4; }
+  to { opacity: 1.0; }
+}
+ 
+.blink {
+  animation:fade 3000ms infinite;
+  -webkit-animation:fade 3000ms infinite;
+}
+.ui-footer {
+  padding-bottom: 0;
+}
+.ui-footer .ui-btn-left {
+  margin: 0;
+}
+.grid-content div div p {
+  background-color: lightGray;
+  border: 1px solid gray;
+  height: 75px;
+  margin: 0;
+}
+.event.ready {
+    background-color: darkgrey;
+    display: none;
+}
+
+.event.version {
+    background-color: black;
+}
+
+.event.battery {
+    background-color: grey;
+}
+.ui-bar {
+    display: flex;
+}
