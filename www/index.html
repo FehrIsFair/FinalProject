@@ -25,6 +25,14 @@
                     <li><a href="#Form">Fill out a Form</a></li>
                     <li><a href="#Vibrate">On Command Vibrate</a></li>
                 </ul>
+                <div data-role="collapsible">
+                    <h2>Click me!</h2>
+                    <ul data-role="listview" data-filter="true">
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                        <li>Item 3</li>
+                    </ul>
+                </div>
             </div>
         </section>
         <section id="File" data-role="page">
@@ -32,6 +40,11 @@
                 <h1>Upload a file!</h1>
                 <a href="#homeScreen" class="ui-btn ui-icon-carat-l ui-btn-icon-notext ui-btn-left ui-nodisc-icon ui-alt-icon"></a>
             </header>
+            <div class="ui-content" id="connectType">
+                <h2>Get your connection type!</h2>
+                <button onclick="checkConnection()">Check</button>
+                <p id="result"></p>
+            </div>
             <footer data-role="footer" data-position="fixed" class="ui-content">
                 <a href="#Form">Forms</a>
                 <a href="#Vibrate">Vibrate</a>
@@ -42,6 +55,36 @@
                 <h1>Upload a file!</h1>
                 <a href="#homeScreen" class="ui-btn ui-icon-carat-l ui-btn-icon-notext ui-btn-left ui-nodisc-icon ui-alt-icon"></a>
             </header>
+            <div class="ui-content">
+                <h2>Sign up for the news letter.</h2>
+                <form method="GET" action="">
+                    <fieldset>
+                        <legend>Phone and Billing</legend>
+                        <label for="name">Name: </label>
+                        <input type="text" name="name" placeholder="John Doe">
+                        <label for="phone">Phone Number: </label>
+                        <input type="text" name="phone" placeholder="012-345-6789">
+                        <label for="address">Address: </label>
+                        <input type="text" name="address" placeholder="123 N 456 W">
+                    </fieldset>
+                    <fieldset data-role="controlgroup">
+                        <legend>What topics would you like us to cover?</legend>
+                        <label for="rb1">Derp</label>
+                        <input type="radio" name="rb" id="rb1" value="rb1"/>
+                        <label for="rb2">Lerp</label>
+                        <input type="radio" name="rb" id="rb2" value="rb2" checked="checked"/>
+                        <label for="rb3">Herp</label>
+                        <input type="radio" name="rb" id="rb3" value="rb3"/>
+                        <label for="rb4">Querp</label>
+                        <input type="radio" name="rb" id="rb4" value="rb4"/>
+                      </fieldset>
+                      <fieldset>
+                        <legend>How many weeks do you want?</legend>
+                        <label for="num">Enter the amount of weeks</label>
+                        <input type="range" name="num" id="num" value="52" min="1" max="52" />
+                      </fieldset>
+                </form>
+            </div>
             <footer data-role="footer" data-position="fixed" class="ui-content">
                 <a href="#Form">Forms</a>
                 <a href="#Vibrate">Vibrate</a>
@@ -57,6 +100,6 @@
                     <a href="#Vibrate">Vibrate</a>
                 </footer>
         </section>
-        <script type="text/javascript" src="index.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
     </body>
 </html>
