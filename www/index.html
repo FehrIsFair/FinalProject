@@ -13,6 +13,8 @@
         <link rel="stylesheet" href="css/jquery.mobile.inline-svg-1.4.5.min.css">
         <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css">
         <link rel="stylesheet" href="css/jquery.mobile.theme-1.4.5.min.css">
+        <script src="js/index.js"></script>
+        <script src="cordova.js"></script>
         <title>Blank App</title>
     </head>
     <body>
@@ -95,11 +97,14 @@
                 <h1>Upload a file!</h1>
                 <a href="#homeScreen" class="ui-btn ui-icon-carat-l ui-btn-icon-notext ui-btn-left ui-nodisc-icon ui-alt-icon"></a>
             </header>
+            <div class="ui-content">
+                <h3>Vibrate your device using a button!</h3>
+                <button onclick="app.vibratePhone()">Vibrate!</button>
+            </div>
             <footer data-role="footer" data-position="fixed" class="ui-content">
                 <a href="#Form">Forms</a>
                 <a href="#File">OS Check</a>
             </footer>
         </section>
-        <script type="text/javascript" src="js/index.js"></script>
     </body>
 </html>

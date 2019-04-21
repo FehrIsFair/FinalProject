@@ -63,6 +63,9 @@ var app = {
             var childElement = parentElement.querySelector('.result');
             childElement.innerHTML = deviceOS + " " + osVersion;
             console.log(deviceOS + " " + osVersion);
+    },
+    vibratePhone: function() {
+        navigator.vibrate(500);
     }
 };
 // function checkOS() {
