@@ -21,7 +21,7 @@
                 <h1>Welcome to my app!</h1>
                 <h2>Here's the pages:</h2>
                 <ul data-role="listview" data-inset="true" class="ui-nodisc-icon ui-alt-icon">
-                    <li><a href="#File">Open a file</a></li>
+                    <li><a href="#File">Check Your OS Version</a></li>
                     <li><a href="#Form">Fill out a Form</a></li>
                     <li><a href="#Vibrate">On Command Vibrate</a></li>
                 </ul>
@@ -37,13 +37,13 @@
         </section>
         <section id="File" data-role="page">
             <header class="ui-content" data-position="fixed" data-role="header">
-                <h1>Upload a file!</h1>
+                <h1>System Info</h1>
                 <a href="#homeScreen" class="ui-btn ui-icon-carat-l ui-btn-icon-notext ui-btn-left ui-nodisc-icon ui-alt-icon"></a>
             </header>
             <div class="ui-content" id="connectType">
-                <h2>Get your connection type!</h2>
-                <button onclick="checkConnection()">Check</button>
-                <p id="result"></p>
+                <h2>Get your OS version!</h2>
+                <button onclick="app.checkOS()">Check</button>
+                <p class="result"></p>
             </div>
             <footer data-role="footer" data-position="fixed" class="ui-content">
                 <a href="#Form">Forms</a>
@@ -86,19 +86,19 @@
                 </form>
             </div>
             <footer data-role="footer" data-position="fixed" class="ui-content">
-                <a href="#Form">Forms</a>
+                <a href="#File">OS Check</a>
                 <a href="#Vibrate">Vibrate</a>
             </footer>
         </section>
         <section id="Vibrate" data-role="page">
-                <header class="ui-content" data-position="fixed" data-role="header">
-                    <h1>Upload a file!</h1>
-                    <a href="#homeScreen" class="ui-btn ui-icon-carat-l ui-btn-icon-notext ui-btn-left ui-nodisc-icon ui-alt-icon"></a>
-                </header>
-                <footer data-role="footer" data-position="fixed" class="ui-content">
-                    <a href="#Form">Forms</a>
-                    <a href="#Vibrate">Vibrate</a>
-                </footer>
+            <header class="ui-content" data-position="fixed" data-role="header">
+                <h1>Upload a file!</h1>
+                <a href="#homeScreen" class="ui-btn ui-icon-carat-l ui-btn-icon-notext ui-btn-left ui-nodisc-icon ui-alt-icon"></a>
+            </header>
+            <footer data-role="footer" data-position="fixed" class="ui-content">
+                <a href="#Form">Forms</a>
+                <a href="#File">OS Check</a>
+            </footer>
         </section>
         <script type="text/javascript" src="js/index.js"></script>
     </body>
